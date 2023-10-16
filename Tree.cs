@@ -1,6 +1,8 @@
+using System.Numerics;
+
 namespace GroupProjectBST
 {
-    public class BinaryTree<T> where T : IComparable<T> {
+    public class Tree<T>: ISortedSet<T> where T : IComparable<T> {
         BSTNode<T>? root = null;
 
         private ref BSTNode<T>? FindNode(T value) {
@@ -11,9 +13,25 @@ namespace GroupProjectBST
             }
             return ref root;
         }
+
+        public T Find() {
+
+        }
+
+        public int Size() {
+            return 0;
+        }
+
+        public void Add(){
+
+        }
+
+        public T Remove() {
+            
+        }
     }
 
-    public class BSTNode<T> where T : IComparable<T> {
+    public class BSTNode<T>: ITraversable<T> where T : IComparable<T> {
         T value;
         BSTNode<T> left;
         BSTNode<T> right;
@@ -28,37 +46,41 @@ namespace GroupProjectBST
             return this.value;
         }
 
-        public List<T> TraversePreOrder (List<T>? toReturn = null) 
+        public List<T> PreOrder (List<T>? toReturn = null) 
         {
             if(toReturn is null){
                 toReturn = new List<T>();
             }
             toReturn.Add(value);
             if(left is not null){
-                left.TraversePreOrder(toReturn);
+                left.PreOrder(toReturn);
             }
             if(right is not null)
             {
-                right.TraversePreOrder(toReturn);
+                right.PreOrder(toReturn);
             }
             return toReturn;
         }
 
-        public List<T> TraverseInOrder (List<T>? toReturn = null) 
+        public List<T> InOrder (List<T>? toReturn = null) 
         {
             if(toReturn is null){
                 toReturn = new List<T>();
             }
             if(left is not null)
             {
-                left.TraverseInOrder(toReturn);
+                left.InOrder(toReturn);
             }
             toReturn.Add(value);
             if(right is not null) 
             {
-                right.TraverseInOrder(toReturn);
+                right.InOrder(toReturn);
             }
             return toReturn;
         }
-    }
+
+        public List<T> PostOrder() {
+            
+        }
+    }   
 }
