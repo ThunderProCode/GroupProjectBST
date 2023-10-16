@@ -1,10 +1,10 @@
 namespace GroupProjectBST
 {
     public interface ISortedSet<T> where T: IComparable<T> {
-        public T Find();
+        public ref BSTNode<T> Find(T value);
         public int Size();
         public void Add();
-        public T Remove();
+        public T Remove(T Remove);
     }
 
     public interface ITraversable<T> {

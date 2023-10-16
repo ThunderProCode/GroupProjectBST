@@ -5,17 +5,13 @@ namespace GroupProjectBST
     public class Tree<T>: ISortedSet<T> where T : IComparable<T> {
         BSTNode<T>? root = null;
 
-        private ref BSTNode<T>? FindNode(T value) {
+        public ref BSTNode<T>? Find(T value) {
             if(root is null || root.GetValue().CompareTo(value) == 0){
                 return ref root;
             } else if(value.CompareTo(root.GetValue()) < 0) {
                 // return
             }
             return ref root;
-        }
-
-        public T Find() {
-            
         }
 
         public int Size() {
@@ -26,8 +22,12 @@ namespace GroupProjectBST
 
         }
 
-        public T Remove() {
-
+        public T Remove(T value) {
+            if(root is null || root.GetValue().CompareTo(value) == 0) {
+                
+            } else if(value.CompareTo(root.GetValue()) < 0){
+                
+            }
         }
     }
 
