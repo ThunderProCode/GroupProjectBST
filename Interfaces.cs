@@ -8,8 +8,8 @@ namespace GroupProjectBST
     }
 
     public interface ITraversable<T> {
-        IEnumerator<T> PreOrder(List<T>? toReturn = null);
-        IEnumerator<T> InOrder(List<T>? toReturn = null);
-        IEnumerator<T> PostOrder();
+        IEnumerable<T> PreOrder(List<T>? toReturn = null);
+        IEnumerable<T> InOrder(List<T>? toReturn = null);
+        IEnumerable<T> PostOrder(List<T>? toReturn = null);
     }
 }

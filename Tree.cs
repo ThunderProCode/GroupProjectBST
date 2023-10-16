@@ -15,7 +15,7 @@ namespace GroupProjectBST
         }
 
         public T Find() {
-
+            
         }
 
         public int Size() {
@@ -27,7 +27,7 @@ namespace GroupProjectBST
         }
 
         public T Remove() {
-            
+
         }
     }
 
@@ -46,7 +46,7 @@ namespace GroupProjectBST
             return this.value;
         }
 
-        public List<T> PreOrder (List<T>? toReturn = null) 
+        public IEnumerable<T> PreOrder (List<T>? toReturn = null) 
         {
             if(toReturn is null){
                 toReturn = new List<T>();
@@ -62,7 +62,7 @@ namespace GroupProjectBST
             return toReturn;
         }
 
-        public List<T> InOrder (List<T>? toReturn = null) 
+        public IEnumerable<T> InOrder (List<T>? toReturn = null) 
         {
             if(toReturn is null){
                 toReturn = new List<T>();
@@ -79,8 +79,21 @@ namespace GroupProjectBST
             return toReturn;
         }
 
-        public List<T> PostOrder() {
-            
+        public IEnumerable<T> PostOrder(List<T>? toReturn = null) 
+        {
+            if(toReturn is null){
+                toReturn = new List<T>();
+            }
+            if(left is not null)
+            {
+                left.PostOrder(toReturn);
+            }
+            if(right is not null) 
+            {
+                right.PostOrder(toReturn);
+            }
+            toReturn.Add(value);
+            return toReturn;
         }
     }   
 }
