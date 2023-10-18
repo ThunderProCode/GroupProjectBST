@@ -3963,11 +3963,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hecto\\OneDrive\\Documents\\2023 Fall Semester\\Data Structures\\GroupProjectBST\\GroupProjectBST.csproj",
+      "projectUniqueName": "C:\\Users\\hecto\\OneDrive\\Documents\\2023 Fall Semester\\GroupProjectBST\\GroupProjectBST.csproj",
       "projectName": "GroupProjectBST",
-      "projectPath": "C:\\Users\\hecto\\OneDrive\\Documents\\2023 Fall Semester\\Data Structures\\GroupProjectBST\\GroupProjectBST.csproj",
+      "projectPath": "C:\\Users\\hecto\\OneDrive\\Documents\\2023 Fall Semester\\GroupProjectBST\\GroupProjectBST.csproj",
       "packagesPath": "C:\\Users\\hecto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hecto\\OneDrive\\Documents\\2023 Fall Semester\\Data Structures\\GroupProjectBST\\obj\\",
+      "outputPath": "C:\\Users\\hecto\\OneDrive\\Documents\\2023 Fall Semester\\GroupProjectBST\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hecto\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,5 @@
+C:\Users\hecto\OneDrive\Documents\2023 Fall Semester\GroupProjectBST\obj\Debug\net7.0\GroupProjectBST.csproj.AssemblyReference.cache
+C:\Users\hecto\OneDrive\Documents\2023 Fall Semester\GroupProjectBST\obj\Debug\net7.0\GroupProjectBST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hecto\OneDrive\Documents\2023 Fall Semester\GroupProjectBST\obj\Debug\net7.0\GroupProjectBST.AssemblyInfoInputs.cache
+C:\Users\hecto\OneDrive\Documents\2023 Fall Semester\GroupProjectBST\obj\Debug\net7.0\GroupProjectBST.AssemblyInfo.cs
+C:\Users\hecto\OneDrive\Documents\2023 Fall Semester\GroupProjectBST\obj\Debug\net7.0\GroupProjectBST.csproj.CoreCompileInputs.cache

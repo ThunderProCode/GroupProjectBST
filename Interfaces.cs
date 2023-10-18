@@ -1,9 +1,9 @@
 namespace GroupProjectBST
 {
     public interface ISortedSet<T> where T: IComparable<T> {
-        public ref BSTNode<T> Find(T value);
+        public T Find(T value);
         public int Size();
-        public void Add();
+        public bool Add(T item);
         public T Remove(T Remove);
     }
 

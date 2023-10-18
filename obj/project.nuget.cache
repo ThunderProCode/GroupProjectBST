@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "++rY5+lu69iaab4uGWbvaLvpR8aeUAU5+QQ2dQa+63nSD+1D4L0JzeGJyeDeg1AfZKo+rJDLnOyljhU1Xx3wSg==",
+  "dgSpecHash": "l0beSrMLyIpBQ86zItxkGEL1gpMtiyNQ5GJlqr7D8AKgtgYaJXvVDZHUNg/KpbZT7f/SafeMk1QwBTw+HOQ/Ug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hecto\\OneDrive\\Documents\\2023 Fall Semester\\Data Structures\\GroupProjectBST\\GroupProjectBST.csproj",
+  "projectFilePath": "C:\\Users\\hecto\\OneDrive\\Documents\\2023 Fall Semester\\GroupProjectBST\\GroupProjectBST.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hecto\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\hecto\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
